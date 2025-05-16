@@ -1,7 +1,5 @@
 <?php	
-  $conn = mysql_connect('localhost','desco','mm12*12MM') or trigger_error("SQL", E_USER_ERROR);
-  $db = mysql_select_db('test',$conn) or trigger_error("SQL", E_USER_ERROR);
-  
+ 
   $searchName = $_GET['name'];
   $searchDesignation = $_GET['designationSelector'];
   $searchParam = false;  
